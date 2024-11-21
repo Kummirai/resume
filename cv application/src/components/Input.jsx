@@ -1,4 +1,3 @@
-// eslint-disable-next-line react/prop-types
 import Label from "./Label";
 
 // eslint-disable-next-line react/prop-types
