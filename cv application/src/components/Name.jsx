@@ -51,7 +51,14 @@ const Name = () => {
           placeholder="Positon / Job Title"
         />
       </div>
-      <Textarea id="about" name="about" row="10" col="70" />
+      <Textarea
+        id="about"
+        name="about"
+        row="10"
+        col="70"
+        placeholder="Add work experience , press add button and add another work experience and press add button"
+      />
+      <button>Add</button>
     </form>
   );
 };
