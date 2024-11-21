@@ -1,5 +1,6 @@
 import AboutMe from "./AboutMe";
 import Heading from "./Heading";
+import Skills from "./Skills";
 import WorkExperience from "./WorkExperience";
 
 const Main = () => {
@@ -8,6 +9,7 @@ const Main = () => {
       <Heading />
       <AboutMe />
       <WorkExperience />
+      <Skills />
     </div>
   );
 };
