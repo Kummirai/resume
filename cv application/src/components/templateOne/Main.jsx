@@ -1,5 +1,11 @@
+import Heading from "./Heading";
+
 const Main = () => {
-  return <div className="main">Main</div>;
+  return (
+    <div className="main">
+      <Heading />
+    </div>
+  );
 };
 
 export default Main;

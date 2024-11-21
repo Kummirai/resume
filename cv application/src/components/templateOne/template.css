@@ -19,3 +19,24 @@
   background-color: #313131;
   width: 30%;
 }
+
+.heading {
+  background-color: #ffdf00;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin-top: 4rem;
+}
+
+.heading h1 {
+  margin: 0;
+}
+
+.heading h1 > span {
+  font-weight: 400;
+}
+
+.heading p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
