@@ -8,6 +8,7 @@ const Textarea = ({ name, id, col, row, placeholder }) => {
       cols={col}
       rows={row}
       placeholder={placeholder}
+      required
     ></textarea>
   );
 };

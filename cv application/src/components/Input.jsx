@@ -2,7 +2,13 @@
 const Input = ({ id, type, name, placeholder }) => {
   return (
     <div className="input-field">
-      <input type={type} name={name} id={id} placeholder={placeholder} />
+      <input
+        type={type}
+        name={name}
+        id={id}
+        placeholder={placeholder}
+        required
+      />
     </div>
   );
 };
