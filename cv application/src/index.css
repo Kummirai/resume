@@ -10,22 +10,39 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.input-field {
+.container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.my-form {
   width: 50%;
 }
 
-.input-field input {
-  height: 1.6rem;
-  font-size: 0.85rem;
-  font-weight: 300;
-  padding: 0.2rem;
-  border: 1px solid gray;
-  border-radius: 4px;
+.name-title {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.input-field {
+  display: flex;
 }
 
-label {
+.input-field input {
+  height: 2.4rem;
+  font-size: 0.85rem;
+  font-weight: 300;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid gray;
+  border-radius: 0.6rem;
+  width: 20rem;
+}
+
+.name-jobtitle {
+  margin-bottom: 1rem;
+  align-self: flex-end;
   font-size: 1.2rem;
-  margin-bottom: 0.2rem;
+  font-weight: 400;
 }
