@@ -40,3 +40,17 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+.about-me {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me hr {
+  margin: 0.8rem 0;
+}
+.about-me h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
