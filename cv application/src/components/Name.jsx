@@ -4,6 +4,7 @@ import Textarea from "./Textarea";
 const Name = () => {
   return (
     <form className="my-form">
+      <h1>Create Resume`</h1>
       <h2 className="name-jobtitle">Name & Job Title</h2>
       <hr />
       <div className="name-title">
