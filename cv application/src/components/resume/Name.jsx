@@ -1,12 +1,12 @@
 import Input from "./Input";
 import Textarea from "./Textarea";
-
-const getName =(event)=>{
-  console.log(event.target.value);
-  
-}
+import { useState } from "react";
 
 const Name = () => {
+  const [name, setName] = useState("");
+  const getName = (event) => {
+    setName(() => event.target.value);
+  };
   return (
     <form className="my-form">
       <h1>Create Resume`</h1>
@@ -19,6 +19,7 @@ const Name = () => {
           name="fullName"
           placeholder="Full name"
           getInput={getName}
+          value={name}
         />
         <Input
           type="text"
