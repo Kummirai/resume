@@ -1,3 +1,4 @@
+import Contacts from "./Contacts";
 import Education from "./Education";
 import Reference from "./Reference";
 
@@ -6,6 +7,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <Education />
       <Reference />
+      <Contacts />
     </div>
   );
 };

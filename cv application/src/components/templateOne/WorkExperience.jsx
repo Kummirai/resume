@@ -25,17 +25,6 @@ const WorkExperience = () => {
           </p>
         </div>
       </div>
-      <div className="work-exp-cont">
-        <p className="work-exp-year">2017 - 2019</p>
-        <div className="work-exp-details">
-          <p className="work-exp-title">Sineor Web Developer</p>
-          <p className="work-exp-comp">Microsoft</p>
-          <p className="work-exp-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-            minus.
-          </p>
-        </div>
-      </div>
     </div>
   );
 };
