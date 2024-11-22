@@ -1,6 +1,11 @@
 import Input from "./Input";
 import Textarea from "./Textarea";
 
+const getName =(event)=>{
+  console.log(event.target.value);
+  
+}
+
 const Name = () => {
   return (
     <form className="my-form">
@@ -13,6 +18,7 @@ const Name = () => {
           id="fullName"
           name="fullName"
           placeholder="Full name"
+          getInput={getName}
         />
         <Input
           type="text"

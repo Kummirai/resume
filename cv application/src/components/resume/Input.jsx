@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const Input = ({ id, type, name, placeholder, value }) => {
+const Input = ({ id, type, name, placeholder, value, getInput }) => {
   return (
     <div className="input-field">
       <input
@@ -9,6 +9,7 @@ const Input = ({ id, type, name, placeholder, value }) => {
         placeholder={placeholder}
         value={value}
         required
+        onChange={getInput}
       />
     </div>
   );
