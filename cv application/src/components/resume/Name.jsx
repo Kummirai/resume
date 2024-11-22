@@ -158,4 +158,134 @@ const Name = () => {
   );
 };
 
+export const Heading = () => {
+  return (
+    <div className="heading">
+      <h1 className="resume-owner">
+        {name} <span>Kumirai</span>
+      </h1>
+      <p className="owner-title">Web Developer</p>
+    </div>
+  );
+};
+
+export const WorkExperience = () => {
+  return (
+    <div className="about-me">
+      <h2>Work Experience</h2>
+      <hr />
+      <div className="work-exp-cont">
+        <p className="work-exp-year">2013 - 2015</p>
+        <div className="work-exp-details">
+          <p className="work-exp-title">Web Developer</p>
+          <p className="work-exp-comp">codeWithMilton</p>
+          <p className="work-exp-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            minus.
+          </p>
+        </div>
+      </div>
+      <div className="work-exp-cont">
+        <p className="work-exp-year">2015 - 2017</p>
+        <div className="work-exp-details">
+          <p className="work-exp-title">Frontend Developer</p>
+          <p className="work-exp-comp">Google</p>
+          <p className="work-exp-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            minus.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const AboutMe = () => {
+  return (
+    <div className="about-me">
+      <h2>About Me</h2>
+      <hr />
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt porro
+        sint non id recusandae dolorem perspiciatis ipsum reprehenderit ex ipsa.
+      </p>
+    </div>
+  );
+};
+
+export const Contacts = () => {
+  return (
+    <div className="about-me">
+      <div>
+        <p>Phone</p>
+        <p>+27 782 677 436</p>
+      </div>
+      <div>
+        <p>Email</p>
+        <p>ajaxmilton@hotmail.com</p>
+      </div>
+      <div>
+        <p>Address</p>
+        <p>10 Clarence St</p>
+        <p>Regents Park</p>
+      </div>
+    </div>
+  );
+};
+
+export const Skills = () => {
+  return (
+    <div className="about-me">
+      <h2>Skills</h2>
+      <hr />
+      <ul className="skills-container">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React</li>
+        <li>NODE JS</li>
+        <li>JavaScript</li>
+        <li>Boostrap</li>
+      </ul>
+    </div>
+  );
+};
+
+export const Education = () => {
+  return (
+    <div className="about-me">
+      <div>
+        <h2>Education</h2>
+        <hr />
+        <p>Soft Development</p>
+        <p>BYU</p>
+        <p>2015 - 2019</p>
+      </div>
+      <div>
+        <p>Soft Development</p>
+        <p>BYU</p>
+        <p>2015 - 2019</p>
+      </div>
+    </div>
+  );
+};
+
+export const Reference = () => {
+  return (
+    <div className="about-me">
+      <div>
+        <h2>Reference</h2>
+        <hr />
+        <p>Cole Baidoo</p>
+        <p>Director</p>
+        <p>+44 457 2564</p>
+      </div>
+      <div>
+        <p>Cole Baidoo</p>
+        <p>Director</p>
+        <p>+44 457 2564</p>
+      </div>
+    </div>
+  );
+};
+
 export default Name;

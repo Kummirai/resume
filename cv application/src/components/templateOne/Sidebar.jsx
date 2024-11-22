@@ -1,6 +1,4 @@
-import Contacts from "./Contacts";
-import Education from "./Education";
-import Reference from "./Reference";
+import { Contacts, Education, Reference } from "../resume/Name";
 
 const Sidebar = () => {
   return (

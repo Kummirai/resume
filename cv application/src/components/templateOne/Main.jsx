@@ -1,7 +1,4 @@
-import AboutMe from "./AboutMe";
-import Heading from "./Heading";
-import Skills from "./Skills";
-import WorkExperience from "./WorkExperience";
+import { Heading, AboutMe, WorkExperience, Skills } from "../resume/Name";
 
 const Main = () => {
   return (
