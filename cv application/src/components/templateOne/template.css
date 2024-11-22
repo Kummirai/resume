@@ -96,3 +96,20 @@
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 3rem;
 }
+
+.sidebar .about-me h2 {
+  color: white;
+}
+
+.sidebar .about-me hr {
+  background-color: #ffdf00;
+}
+
+.sidebar .about-me div {
+  margin-bottom: 2rem;
+}
+
+.sidebar .about-me p {
+  color: #fff;
+  margin: 0;
+}
