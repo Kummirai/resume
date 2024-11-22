@@ -35,11 +35,12 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .heading h1 {
   margin: 0;
+  font-size: 1.7em;
 }
 
 .heading h1 > span {
@@ -63,14 +64,14 @@
 }
 .about-me h2,
 .template-h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
 .work-exp-cont {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .work-exp-details {
@@ -88,15 +89,13 @@
 }
 
 .work-exp-desc {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 3rem;
 }
-/* .sidebar .about-me  */
 
 .sidebar .about-me h2 {
   color: white;
