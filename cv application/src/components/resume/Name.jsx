@@ -1,6 +1,8 @@
 import Input from "./Input";
 import Textarea from "./Textarea";
-import { useState } from "react";
+import { useState, createContext } from "react";
+
+const InputContext = createContext();
 
 const Name = () => {
   const [name, setName] = useState("");
@@ -13,14 +15,17 @@ const Name = () => {
       <h2 className="name-jobtitle">Name & Job Title</h2>
       <hr />
       <div className="name-title">
-        <Input
-          type="text"
-          id="fullName"
-          name="fullName"
-          placeholder="Full name"
-          getInput={getName}
-          value={name}
-        />
+        <InputContext.Provider value={name}>
+          <Input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Full name"
+            getInput={getName}
+            value={name}
+          />
+        </InputContext.Provider>
+
         <Input
           type="text"
           id="JobTitle"
